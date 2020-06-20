@@ -1,0 +1,17 @@
+<div class="calculator">
+    <h1>Play SuperHeroes Game</h1>
+    <form #heroForm="ngForm" >
+    <div>
+        <input class="result" [(ngModel)]="code" type="text" name="code"  readonly #name="ngModel">
+        
+         
+    </div>
+    <div>
+        <button class="responsive" *ngFor="let btn of buttons" [value]='btn.key' (click)="getValue($event)"  >{{btn.key}}
+          {{btn.val}}
+        </button>
+        <button class="responsive"  (click)="clear()">Clear</button>
+
+    </div>
+</form>
+</div>

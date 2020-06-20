@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans|Montserrat);
+
+body {
+    background-color:powderblue;
+    
+    z-index: 0; 
+}
+
+
+h1{
+    margin-top : 20px;
+    font-size : 2em;
+    font-weight : bold;
+}
+
+.calculator{
+background-color:  rgb(243 , 238 , 231);
+position: relative;
+margin: 7% auto auto auto;
+width: 300px;
+text-align: center;
+border-color: rgb(99 , 94 , 97);
+border-radius: 20px;
+box-shadow: inset 2px 0px 10px -5px rgb(85, 80 , 83),
+inset -5px 0px 15px -5px rgb(85, 80 , 83),
+inset 10px 0px 10px -12px rgb(85, 80 , 83),
+inset -2px 0px 4px 2px rgb(85, 80 , 83),
+inset -2px 0px 10px 0px rgb(85, 80 , 83),
+}
+
+.result{
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 8px;
+    width : 80px;
+    height : 65px;
+    font-size : 15px;
+    border : 2px solid;
+    margin: 2px 2px 8px 2px;
+    transition-duration: 0.4s;
+}
+
+.responsive:hover {
+    background-color: rgb(138 , 134 , 134);
+    color : rgb(247 , 240 , 240);
+}
+
+input {
+    width : 250px;
+    height : 60px;
+    text-align: right;
+    font-size: 1.7em;
+}
+
+
